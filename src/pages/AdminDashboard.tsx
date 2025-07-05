@@ -64,7 +64,7 @@ const AdminDashboard = () => {
       try {
         // Upload to backend
         const response = await uploadAPI.uploadImage(file);
-        const imageUrl = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}${response.data.url}`;
+        const imageUrl = `${import.meta.env.VITE_API_URL || 'https://mandala-nxgo.onrender.com'}${response.data.url}`;
         
         setImagePreview(imageUrl);
         setProductFormData({ ...productFormData, image: imageUrl });
