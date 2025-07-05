@@ -27,21 +27,21 @@ const Contact = () => {
     {
       name: 'Instagram',
       icon: Instagram,
-      url: 'https://instagram.com/handmadebyshweta',
+      url: 'https://www.instagram.com/shwetakr07?igsh=YmE0ZGd0dGNzaTBo',
       color: 'from-pink-500 to-purple-500',
       description: 'Follow for daily mandala inspiration'
     },
     {
       name: 'WhatsApp',
       icon: MessageCircle,
-      url: 'https://wa.me/919876543210',
+      url: 'https://wa.me/9920873234',
       color: 'from-green-500 to-emerald-500',
       description: 'Quick chat for custom orders'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/shwetakr',
+      url: 'https://www.linkedin.com/in/shweta-k-r-427b78366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       color: 'from-blue-500 to-blue-600',
       description: 'Professional network & updates'
     },
@@ -77,7 +77,7 @@ const Contact = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -151,17 +151,17 @@ const Contact = () => {
                   Send Message
                 </button>
               </form>
-            </motion.div>
+            </motion.div> */}
 
             {/* Contact Info & Social Links */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="space-y-8"
+              className="space-y-8 col-span-2"
             >
               {/* Contact Info */}
-              <div className="bg-white rounded-3xl p-8 shadow-xl border border-blue-100">
+              <div className="flex flex-col flex-wrap flex-row bg-white rounded-2xl p-8 shadow-xl border border-blue-100 content-center">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Get in Touch</h2>
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
@@ -179,7 +179,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-800">Phone</div>
-                      <div className="text-gray-600">+91 98765 43210</div>
+                      <div className="text-gray-600">+91 9920873234</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">

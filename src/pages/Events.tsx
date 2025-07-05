@@ -46,7 +46,7 @@ const Events = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
-              Explore Our Courses
+              Explore My Courses
             </h2>
             <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto">
               Choose the perfect course for your skill level and artistic goals

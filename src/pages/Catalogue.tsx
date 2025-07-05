@@ -53,11 +53,11 @@ const Catalogue = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
+            <h1 className="text-4xl py-2 md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
               Product Catalogue
             </h1>
             <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto">
-              Discover our collection of handcrafted mandalas, each piece uniquely designed to bring peace and beauty to your space
+              Discover my collection of handcrafted mandalas, each piece uniquely designed to bring peace and beauty to your space
             </p>
           </motion.div>
 
@@ -66,10 +66,15 @@ const Catalogue = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="bg-white rounded-2xl p-6 shadow-lg border border-blue-100 mb-8"
+            className="bg-white flex flex-col rounded-2xl p-6 shadow-lg border border-blue-100 mb-8 justify-center" 
           >
-            <h3 className="text-lg font-semibold text-gray-800 mb-4 text-center">Size Reference Guide</h3>
-            <div className="flex justify-center items-end gap-8">
+            <h3 className="text-lg flex flex-row font-semibold text-gray-800 mb-4 text-center justify-center">Size Reference Guide (A5 - A1)</h3>
+            <img src="src\ref.png"/>
+            {/* <div className='flex flex-row place-content-around'>
+              <p className='text-3xl font-bold'>A5</p>
+              <p className='text-3xl font-bold'>A1</p>
+            </div> */}
+            {/* <div className="flex justify-center items-end gap-8">
               <div className="text-center">
                 <div className="w-8 h-10 bg-gradient-to-br from-blue-500 to-teal-500 rounded-sm mb-2 mx-auto"></div>
                 <span className="text-sm font-medium text-gray-700">A4</span>
@@ -90,7 +95,7 @@ const Catalogue = () => {
                 <span className="text-sm font-medium text-gray-700">A1</span>
                 <div className="text-xs text-gray-500">59×84cm</div>
               </div>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Search and Sort */}

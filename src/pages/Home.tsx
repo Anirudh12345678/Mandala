@@ -15,39 +15,39 @@ const Home = () => {
 
   const reviews = [
     {
-      name: "Priya Sharma",
+      name: "Ramgopal KS",
       rating: 5,
-      text: "Shweta's mandalas are absolutely stunning! The intricate details and vibrant colors transformed my living space. Highly recommended!",
+      text: "Great finesse of work. Condition of package at the time of delivery was very good!",
       image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
     },
     {
-      name: "Rajesh Kumar",
+      name: "Prasath",
       rating: 5,
-      text: "The custom mandala I ordered exceeded my expectations. The attention to detail and spiritual essence is remarkable.",
+      text: "Product Quality - 5/5 Packing - 5/5 Artwork - 5/5. Very very nice, more than my expectations.",
       image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
     },
     {
-      name: "Anita Desai",
+      name: "V.Prasanna",
       rating: 5,
-      text: "Beautiful artwork with deep meaning. Shweta's passion for mandalas shines through every piece. Perfect for meditation space!",
+      text: "Nice work and superb packing.",
       image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
     },
     {
-      name: "Vikram Singh",
+      name: "Anjali Sharma",
       rating: 5,
-      text: "Professional service and exceptional quality. The mandala arrived perfectly packaged and looks amazing in our office.",
+      text: "Finesse of work - 5/5 Condition of package - 5/5. Like the way you made it personalized.",
       image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
     },
     {
-      name: "Meera Patel",
+      name: "Anjana Venugopalan",
       rating: 5,
       text: "Shweta's teaching style is amazing! I learned so much in her beginner's course. Now I create my own mandalas!",
       image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
     },
     {
-      name: "Arjun Reddy",
+      name: "Adithya",
       rating: 5,
-      text: "The mandala I commissioned for my wife's birthday was perfect. Shweta captured exactly what I envisioned. Thank you!",
+      text: "Shweta captured exactly what I envisioned. Thank you!",
       image: "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
     }
   ];
@@ -84,7 +84,7 @@ const Home = () => {
             className="bg-white/90 backdrop-blur-md rounded-3xl p-8 md:p-12 shadow-2xl border border-white/20"
           >
             <motion.h1 
-              className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-teal-500 to-purple-600 bg-clip-text text-transparent"
+              className="text-4xl py-3 md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-teal-500 to-purple-600 bg-clip-text text-transparent"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
@@ -146,7 +146,7 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
-              What Our Clients Say
+              What My Clients Say
             </h2>
             <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto">
               Discover the transformative power of mandalas through the experiences of our satisfied customers
@@ -201,7 +201,7 @@ const Home = () => {
               Ready to Transform Your Space?
             </h2>
             <p className="text-xl text-blue-100 mb-8 font-light">
-              Let's create something beautiful together. Explore our collection or commission a custom piece.
+              Let's create something beautiful together. Explore my collection or commission a custom piece.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
